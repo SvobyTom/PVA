@@ -1,0 +1,9 @@
+           if ((trojka < 1) && (ctyrka < 1) && (petka < 1) && prumer < 1.5)
+                    System.out.println("Žák prospěl s vyznamenáním");
+                else
+                    if(((trojka >= 1) || (ctyrka >= 1) || (petka >= 1)) || (prumer < 4.5))
+                    System.out.println("Žák prospěl bez vyznamenání");
+                else if (prumer >= 4.5)
+                    System.out.println("Žák neprospěl");
+
+
